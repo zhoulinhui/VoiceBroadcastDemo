@@ -5,7 +5,7 @@
 
 讯飞开放平台：http://www.xfyun.cn/index.php/default/index
 
-![image](https://github.com/MZCretin/ExternalMapUtils/blob/master/png/Screenshot_20170509-152819.png)
+![image](https://github.com/zhoulinhui/VoiceBroadcastDemo/blob/master/app/src/main/res/drawable/main.png)
 
 ##：使用方法:
 
