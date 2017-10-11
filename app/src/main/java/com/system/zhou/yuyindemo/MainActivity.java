@@ -36,14 +36,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-//        //这是后台朗读，实例化一个SynthesizerPlayer
-//        SynthesizerPlayer player = SynthesizerPlayer.createSynthesizerPlayer(MainActivity.this, APPID);
-//        //设置语音朗读者，可以根据需要设置男女朗读，具体请看api文档和官方论坛
-//        player.setVoiceName("vivixiaoyan");//在此设置语音播报的人选例如：vivixiaoyan、vivixiaomei、vivixiaoqi
-//        player.playText("今天天气不错", "ent=vivi21,bft=5", null);
-
-
         bt1 = (Button) findViewById(R.id.bt_recognize);
         bt2 = (Button) findViewById(R.id.bt_speek);
         bt3 = (Button) findViewById(R.id.bt_speek_bg);
