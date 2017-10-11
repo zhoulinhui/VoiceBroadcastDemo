@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:padding="10dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:hint="请输入要播报的内容"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/bt_recognize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="识别"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/bt_speek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="语音识别播报"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/bt_speek_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="后台播报"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="语音控制开关" />
+
+    <ToggleButton
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
